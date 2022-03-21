@@ -7,9 +7,54 @@ img {
   height: 100px;
 }
 
+.container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  gap: 52px;
+}
+
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.box1 {
+  width: 200px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+
+.box2 {
+  width: 200px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+
+.box3 {
+  width: 200px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+
+.box4 {
+  width: 200px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.text {
+  text-align: center;
 }
 
 /* do not edit this footer */
